@@ -1,0 +1,108 @@
+# Roadmap
+
+## Architecture decisions
+
+- [ ] Architecture
+  - [ ] File format
+    - [ ] Need to be based on open format(s)
+    - [ ] Can have complex structure
+    - [ ] Can embed external files
+    - [ ] Can be viewed using existing technologies
+    - [ ] Full specification
+  - [ ] As a library
+    - [ ] Can be embedded in other projects
+    - [ ] Can be built and loaded into web documents
+  - [ ] As an extension
+    - [ ] Can be injected into a compatible web pages (or documents)
+  - [ ] As standalone
+    - [ ] Can be insalled & launched on a desktop computer without network dependencies
+
+## Roadmap to v1
+
+- [ ] Box (nodes)
+	- [ ] Drag & drop
+	- [ ] Basic content
+		- [ ] Sockets
+			- [ ] Direction (vertical/horizontal)
+			- [ ] Types (colors)
+			- [ ] Multiple edge
+		- [ ] Header
+		- [ ] Progress
+	- [ ] Collapsible
+	- [ ] Resizable
+	- [ ] Enabled / disabled
+- [ ] Routers
+	- [ ] Drag & drop
+	- [ ] Cut edges to create a Router
+- [ ] Noodles (edges)
+	- [ ] Can connect sockets
+	- [ ] Can connect routers
+	- [ ] Validate socket types
+	- [ ] Drag & drop
+		- [ ] To socket
+		- [ ] To router
+		- [ ] To void (pops a Node add menu)
+- [ ] Frames
+- [ ] Groups
+  - [ ] Group input/output Boxes
+- [ ] Viewer
+	- [ ] Viewport
+		- [ ] Zoom
+			- [ ] Mouse wheel
+			- [ ] Percentage
+			- [ ] Fit object(s)
+		- [ ] Pan
+		- [ ] Animated ??
+	- [ ] Layers manager
+		- [ ] Z-index
+	- [ ] Selection manager
+		- [ ] Multiple selected
+		- [ ] Rectangle selection
+- [ ] UI overlay
+	- [ ] Context menus
+	- [ ] Basic layout
+		- [ ] Top menu
+		- [ ] Side panels
+		- [ ] Footer
+	- [ ] Key binding
+	- [ ] Actions management (for undo/redo)
+		- [ ] Action base class
+		- [ ] Actions history
+		- [ ] Actions history undo/redo
+		- [ ] Mergeable Action
+		- [ ] Multi Action
+- [ ] Api
+	- [ ] Extendable api namespace (`import noodles from '...'`)
+		- [ ] .ops namespace
+	- [ ] Box
+		- [ ] Generate boxes
+	- [ ] Group Box
+	- [ ] Frames
+	- [ ] Custom Box
+	- [ ] Base Engine
+		- [ ] Execution flow
+	- [ ] Custom Engine
+		- [ ] Exemple SVG engine
+		- [ ] Exemple HTML engine
+		- [ ] Exemple JS engine
+		- [ ] Exemple Python engine
+		- [ ] Exemple Deno engine
+		- [ ] Exemple HTTP engine
+	- [ ] Save files
+	- [ ] Import files
+		- [ ] Custom importers
+			- [ ] Exemple ComfyUI importer
+- [ ] Tests
+
+## Postponed (not essential to v1)
+
+- [ ] UI
+	- [ ] Custom themes
+	- [ ] Custom top menus
+	- [ ] Custom context menus
+- [ ] Api
+	- [ ] Custom panels
+	- [ ] Base Engine
+		- [ ] Loops region
+	- [ ] Extensions
+		- [ ] Custom boxes manager (auto-install from github)
