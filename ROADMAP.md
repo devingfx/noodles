@@ -11,7 +11,7 @@
     - [ ] Full specification
   - [ ] As a library
     - [ ] Can be embedded in other projects
-    - [ ] Can be built and loaded into web documents
+    - [x] Can be built and loaded into web documents
   - [ ] As an extension
     - [ ] Can be injected into a compatible web pages (or documents)
   - [ ] As standalone
