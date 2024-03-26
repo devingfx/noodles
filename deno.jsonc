@@ -1,0 +1,14 @@
+{
+	"imports": {
+		"vanill.es/": "../vanill.es/"
+		// "vanill.es/": "https://vanill.es/"
+	},
+	"tasks": {
+		"watch": "esbuild watch esbuild-config.yaml"
+	},
+	"lint": {
+		"rules": {
+			"exclude": ["no-unused-vars"]
+		}
+	}
+}
