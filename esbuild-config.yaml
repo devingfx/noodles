@@ -1,0 +1,8 @@
+entryPoints: [  ]
+outdir: dist
+format: iife
+platform: browser
+bundle: true
+treeShaking: true
+define:
+  import.meta.url: 'document.currentScript.src'
