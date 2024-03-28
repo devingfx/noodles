@@ -3,19 +3,19 @@
 ## Architecture decisions
 
 - [ ] Architecture
-  - [ ] File format
-    - [ ] Need to be based on open format(s)
-    - [ ] Can have complex structure
-    - [ ] Can embed external files
-    - [ ] Can be viewed using existing technologies
-    - [ ] Full specification
-  - [ ] As a library
-    - [ ] Can be embedded in other projects
-    - [x] Can be built and loaded into web documents
-  - [ ] As an extension
-    - [ ] Can be injected into a compatible web pages (or documents)
-  - [ ] As standalone
-    - [ ] Can be insalled & launched on a desktop computer without network dependencies
+	- [ ] File format
+		- [ ] Need to be based on open format(s)
+		- [ ] Can have complex structure
+		- [ ] Can embed external files
+		- [ ] Can be viewed using existing technologies
+		- [ ] Full specification
+	- [ ] As a library
+		- [ ] Can be embedded in other projects
+		- [x] Can be built and loaded into web documents
+	- [ ] As an extension
+		- [ ] Can be injected into a compatible web pages (or documents)
+	- [ ] As standalone
+		- [ ] Can be insalled & launched on a desktop computer without network dependencies
 
 ## Roadmap to v1
 
@@ -44,7 +44,7 @@
 		- [ ] To void (pops a Node add menu)
 - [ ] Frames
 - [ ] Groups
-  - [ ] Group input/output Boxes
+	- [ ] Group input/output Boxes
 - [ ] Viewer
 	- [ ] Viewport
 		- [ ] Zoom
