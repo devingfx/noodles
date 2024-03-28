@@ -3,11 +3,11 @@
 ## Architecture decisions
 
 - [ ] Architecture
-	- [ ] File format
-		- [ ] Need to be based on open format(s)
-		- [ ] Can have complex structure
-		- [ ] Can embed external files
-		- [ ] Can be viewed using existing technologies
+	- [ ] File format = SVG chosen
+		- [x] Need to be based on open format(s)
+		- [x] Can have complex structure
+		- [x] Can embed external files
+		- [x] Can be viewed using existing technologies
 		- [ ] Full specification
 	- [ ] As a library
 		- [ ] Can be embedded in other projects
